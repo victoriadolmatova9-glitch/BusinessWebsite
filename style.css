@@ -1,0 +1,580 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F3E8;
+    color: #234B35;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+header {
+    background-color: #F7F3E8;
+    padding: 22px 0;
+    border-bottom: 1px solid #DDE5DB;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #234B35;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #365A45;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #557B68;
+}
+
+
+
+
+.hero {
+    background-color: #F7F3E8;
+    color: #234B35;
+    padding: 80px 0;
+    text-align: left;
+}
+
+.subtitle {
+    color: #557B68;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    line-height: 1.15;
+    max-width: 750px;
+    margin-bottom: 25px;
+    color: #234B35;
+}
+
+.description {
+    color: #45604F;
+    font-size: 18px;
+    max-width: 650px;
+    margin-bottom: 35px;
+}
+
+
+
+.button {
+    display: inline-block;
+    background-color: #557B68;
+    color: white;
+    padding: 15px 28px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #3F654F;
+}
+
+
+
+.services {
+    padding: 90px 0;
+    background-color: #F7F3E8;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #234B35;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #DDE5DB;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: #234B35;
+}
+
+.service-card p {
+    color: #59696D;
+}
+
+
+
+footer {
+    background-color: #234B35;
+    color: #E4ECE4;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.pricing-hero {
+    background-color: #F7F3E8;
+    color: #234B35;
+    padding: 80px 0;
+    text-align: left;
+}
+
+.pricing-hero h1 {
+    font-size: 52px;
+    max-width: 700px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #234B35;
+}
+
+.pricing-section {
+    padding: 85px 0;
+    background-color: #F7F3E8;
+}
+
+.pricing-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing-heading h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+    color: #234B35;
+}
+
+.pricing-heading p {
+    color: #45604F;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 950px;
+    margin: auto;
+}
+
+.plan-card {
+    background: white;
+    border: 1px solid #DDE5DB;
+    border-radius: 12px;
+    padding: 38px;
+    position: relative;
+}
+
+.plan-card.recommended {
+    border: 2px solid #557B68;
+}
+
+.plan-label {
+    color: #557B68;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+.plan-card h3 {
+    font-size: 28px;
+    color: #234B35;
+}
+
+.plan-price {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #234B35;
+}
+
+.currency {
+    font-size: 28px;
+    vertical-align: top;
+}
+
+.period {
+    font-size: 16px;
+    font-weight: normal;
+    color: #687579;
+}
+
+.plan-description {
+    color: #687579;
+    min-height: 65px;
+}
+
+.plan-divider {
+    height: 1px;
+    background: #E0E6E0;
+    margin: 25px 0;
+}
+
+.plan-card h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #234B35;
+}
+
+.plan-features {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.plan-features li {
+    padding: 10px 0 10px 25px;
+    position: relative;
+    color: #526267;
+}
+
+.plan-features li::before {
+    content: "✓";
+    color: #557B68;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.plan-button {
+    display: block;
+    text-align: center;
+    background-color: #557B68;
+    color: white;
+    padding: 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.plan-button:hover {
+    background-color: #3F654F;
+}
+
+.plan-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #E4ECE4;
+    color: #557B68;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+.scope-section {
+    background: #F7F3E8;
+    padding: 85px 0;
+}
+
+.scope-section h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: #234B35;
+}
+
+.scope-intro {
+    color: #45604F;
+    margin-bottom: 35px;
+}
+
+.scope-intro {
+    color: #687579;
+    margin-bottom: 35px;
+}
+
+.scope-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.scope-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.scope-card h3 {
+    margin-bottom: 20px;
+    color: #234B35;
+}
+
+.scope-card ul {
+    padding-left: 20px;
+    color: #59696D;
+}
+
+.scope-card li {
+    margin-bottom: 12px;
+}
+
+.scope-note {
+    margin-top: 25px;
+    color: #59696D;
+    font-size: 14px;
+}
+
+
+
+.faq-section {
+    padding: 85px 0;
+    background-color: #F7F3E8;
+}
+
+.faq-list {
+    max-width: 850px;
+    margin: auto;
+}
+
+.faq-item {
+    background-color: white;
+    border: 1px solid #DDE5DB;
+    border-radius: 10px;
+    padding: 28px 32px;
+    margin-bottom: 18px;
+}
+
+.faq-item h3 {
+    color: #234B35;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    color: #687579;
+    line-height: 1.7;
+}
+
+
+
+.contact-section {
+    padding: 90px 0;
+    background-color: #F7F3E8;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: start;
+}
+
+.contact-info h2 {
+    font-size: 38px;
+    color: #234B35;
+    margin-bottom: 20px;
+}
+
+.contact-info > p {
+    color: #45604F;
+    max-width: 500px;
+}
+
+.contact-details {
+    margin-top: 40px;
+}
+
+.contact-details div {
+    margin-bottom: 25px;
+}
+
+.contact-details h3 {
+    color: #234B35;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.contact-details p {
+    color: #687579;
+}
+
+.contact-form-container {
+    background-color: white;
+    border: 1px solid #DDE5DB;
+    border-radius: 12px;
+    padding: 35px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #234B35;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #D5DDD7;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #234B35;
+    background-color: #fdfdfc;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #557B68;
+}
+
+.form-button {
+    width: 100%;
+    border: none;
+    background-color: #557B68;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-button:hover {
+    background-color: #3F654F;
+}
+
+.form-note {
+    margin-top: 15px;
+    color: #7A8588;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+
+    header .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero,
+    .pricing-hero {
+        padding: 60px 0;
+        text-align: left;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .pricing-hero h1 {
+        font-size: 38px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .service-list {
+        grid-template-columns: 1fr;
+    }
+
+    .services h2 {
+        font-size: 29px;
+    }
+
+    .pricing-grid,
+    .scope-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .plan-card {
+        padding: 25px;
+    }
+
+    .plan-badge {
+        position: static;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .pricing-heading h2,
+    .scope-section h2 {
+        font-size: 28px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .contact-info h2 {
+        font-size: 30px;
+    }
+
+    .contact-form-container {
+        padding: 25px;
+    }
+}
