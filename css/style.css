@@ -273,7 +273,7 @@ footer {
 }
 
 .plan-features li::before {
-    content: "+";
+    content: "✓";
     color: #557B68;
     font-weight: bold;
     position: absolute;
