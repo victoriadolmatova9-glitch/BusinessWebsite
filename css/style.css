@@ -246,7 +246,8 @@ footer {
 
 .plan-description {
     color: #687579;
-    min-height: 65px;
+    min-height: auto;
+    margin-bottom: 8px;
 }
 
 .plan-divider {
