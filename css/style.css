@@ -147,6 +147,24 @@ nav a:hover {
     color: #59696D;
 }
 
+.cta {
+    background-color: #234B35;
+    color: #E4ECE4;
+    text-align: center;
+    padding: 55px 20px;
+    margin-top: 35px;
+}
+
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.cta p {
+    margin-bottom: 25px;
+    color: #E4ECE4;
+}
 
 
 footer {
