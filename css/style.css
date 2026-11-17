@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #1B1B1B;
+    background-color: #080808;
     color: #FFFFFF;
     line-height: 1.6;
 }
@@ -61,7 +62,7 @@ nav a:hover {
 
 .hero,
 .pricing-hero {
-    background-color: #222222;
+    background-color: #080808;
     color: #FFFFFF;
     padding: 80px 0;
     text-align: left;
@@ -117,7 +118,7 @@ nav a:hover {
 
 .services {
     padding: 90px 0;
-    background-color: #222222;
+    background-color: #080808;
 }
 
 .services h2 {
@@ -188,7 +189,7 @@ nav a:hover {
 /* FOOTER */
 
 footer {
-    background-color: #222222;
+    background-color: #080808;
     color: #D5D5D5;
     text-align: center;
     padding: 30px;
@@ -200,7 +201,7 @@ footer {
 .pricing,
 .pricing-section {
     padding: 85px 0;
-    background-color: #222222;
+    background-color: #080808;
 }
 
 .pricing-heading {
@@ -342,7 +343,7 @@ footer {
 /* SCOPE */
 
 .scope-section {
-    background: #222222;
+    background: #080808;
     padding: 85px 0;
 }
 
@@ -395,7 +396,7 @@ footer {
 .faq,
 .faq-section {
     padding: 85px 0;
-    background-color: #222222;
+    background-color: #080808;
 }
 
 .faq-list {
@@ -427,7 +428,7 @@ footer {
 
 .contact-section {
     padding: 90px 0;
-    background-color: #222222;
+    background-color: #080808;
 }
 
 .contact-grid {
@@ -604,4 +605,5 @@ footer {
     .cta h2 {
         font-size: 26px;
     }
-}  
+}
+
