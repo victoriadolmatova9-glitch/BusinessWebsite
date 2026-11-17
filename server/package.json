@@ -1,0 +1,14 @@
+{
+  "name": "prairieflow-server",
+  "version": "1.0.0",
+  "description": "PrairieFlow Business Services form server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "resend": "^4.8.0"
+  }
+}
