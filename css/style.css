@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #080808;
-    color: #FFFFFF;
+    background-color: #222225;
+    color: #FEFEFE;
     line-height: 1.6;
 }
 
@@ -25,9 +25,9 @@ a {
 /* HEADER */
 
 header {
-    background-color: #000000;
+    background-color: #222225;
     padding: 22px 0;
-    border-bottom: 1px solid #393939;
+    border-bottom: 1px solid #B62A2D;
 }
 
 header .container {
@@ -39,7 +39,7 @@ header .container {
 .logo {
     font-size: 23px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 nav {
@@ -49,27 +49,27 @@ nav {
 }
 
 nav a {
-    color: #FFFFFF;
+    color: #FEFEFE;
     font-size: 15px;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #ED1B36;
+    color: #D5575E;
 }
 
 /* HERO */
 
 .hero,
 .pricing-hero {
-    background-color: #080808;
-    color: #FFFFFF;
+    background-color: #222225;
+    color: #FEFEFE;
     padding: 80px 0;
     text-align: left;
 }
 
 .subtitle {
-    color: #ED1B36;
+    color: #D5575E;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -82,11 +82,11 @@ nav a:hover {
     line-height: 1.15;
     max-width: 750px;
     margin-bottom: 25px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .description {
-    color: #D5D5D5;
+    color: #E6A8A8;
     font-size: 18px;
     max-width: 650px;
     margin-bottom: 35px;
@@ -98,8 +98,8 @@ nav a:hover {
 .plan-button,
 .form-button {
     display: inline-block;
-    background-color: #ED1B36;
-    color: #FFFFFF;
+    background-color: #B62A2D;
+    color: #FEFEFE;
     padding: 15px 28px;
     border: none;
     border-radius: 0;
@@ -111,20 +111,20 @@ nav a:hover {
 .button:hover,
 .plan-button:hover,
 .form-button:hover {
-    background-color: #B5122A;
+    background-color: #D5575E;
 }
 
 /* SERVICES */
 
 .services {
     padding: 90px 0;
-    background-color: #080808;
+    background-color: #222225;
 }
 
 .services h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .service-list {
@@ -134,34 +134,34 @@ nav a:hover {
 }
 
 .service-card {
-    background-color: #303030;
+    background-color: #222225;
     padding: 30px;
-    border: 1px solid #454545;
-    border-left: 3px solid #ED1B36;
+    border: 1px solid #B62A2D;
+    border-left: 3px solid #D5575E;
     border-radius: 4px;
     transition: 0.3s;
 }
 
 .service-card:hover {
     transform: translateY(-5px);
-    border-color: #ED1B36;
+    border-color: #D5575E;
 }
 
 .service-card h3 {
     font-size: 21px;
     margin-bottom: 15px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .service-card p {
-    color: #D0D0D0;
+    color: #E6A8A8;
 }
 
 /* CTA */
 
 .cta {
-    background-color: #B5122A;
-    color: #FFFFFF;
+    background-color: #B62A2D;
+    color: #FEFEFE;
     text-align: center;
     padding: 55px 20px 65px;
     margin-top: 35px;
@@ -170,30 +170,30 @@ nav a:hover {
 .cta h2 {
     font-size: 32px;
     margin-bottom: 15px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .cta p {
     margin-bottom: 25px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .cta .button {
-    background-color: #222222;
+    background-color: #222225;
 }
 
 .cta .button:hover {
-    background-color: #3A3A3A;
+    background-color: #D5575E;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: #080808;
-    color: #D5D5D5;
+    background-color: #222225;
+    color: #E6A8A8;
     text-align: center;
     padding: 30px;
-    border-top: 1px solid #393939;
+    border-top: 1px solid #B62A2D;
 }
 
 /* PRICING */
@@ -201,7 +201,7 @@ footer {
 .pricing,
 .pricing-section {
     padding: 85px 0;
-    background-color: #080808;
+    background-color: #222225;
 }
 
 .pricing-heading {
@@ -212,11 +212,11 @@ footer {
 .pricing-heading h2 {
     font-size: 36px;
     margin-bottom: 12px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .pricing-heading p {
-    color: #D0D0D0;
+    color: #E6A8A8;
 }
 
 .pricing-grid {
@@ -229,23 +229,23 @@ footer {
 
 .pricing-card,
 .plan-card {
-    background-color: #303030;
-    border: 1px solid #454545;
+    background-color: #222225;
+    border: 1px solid #B62A2D;
     border-radius: 6px;
     padding: 35px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .pricing-card h3,
 .plan-card h3 {
     font-size: 25px;
-    color: #FFFFFF;
+    color: #FEFEFE;
     margin-bottom: 15px;
 }
 
 .pricing-card p,
 .plan-card p {
-    color: #D0D0D0;
+    color: #E6A8A8;
     margin-bottom: 15px;
 }
 
@@ -253,7 +253,7 @@ footer {
 .plan-price {
     font-size: 38px;
     font-weight: bold;
-    color: #ED1B36;
+    color: #D5575E;
 }
 
 .pricing-card ul,
@@ -266,13 +266,13 @@ footer {
 .plan-features li {
     padding: 9px 0 9px 25px;
     position: relative;
-    color: #E0E0E0;
+    color: #E6A8A8;
 }
 
 .pricing-card li::before,
 .plan-features li::before {
     content: "✓";
-    color: #ED1B36;
+    color: #D5575E;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -285,7 +285,7 @@ footer {
 }
 
 .pricing-note {
-    color: #BDBDBD;
+    color: #E6A8A8;
     text-align: center;
     margin-top: 30px;
 }
@@ -293,11 +293,11 @@ footer {
 /* OLD PRICING ELEMENTS */
 
 .plan-card.recommended {
-    border: 2px solid #ED1B36;
+    border: 2px solid #D5575E;
 }
 
 .plan-label {
-    color: #ED1B36;
+    color: #D5575E;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -312,28 +312,28 @@ footer {
 .period {
     font-size: 16px;
     font-weight: normal;
-    color: #BDBDBD;
+    color: #E6A8A8;
 }
 
 .plan-description {
-    color: #D0D0D0;
+    color: #E6A8A8;
 }
 
 .plan-divider {
     height: 1px;
-    background: #505050;
+    background: #B62A2D;
     margin: 25px 0;
 }
 
 .plan-card h4 {
     margin-bottom: 20px;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .plan-badge {
-    background: #ED1B36;
-    color: #FFFFFF;
+    background: #B62A2D;
+    color: #FEFEFE;
     padding: 6px 10px;
     border-radius: 3px;
     font-size: 10px;
@@ -343,18 +343,18 @@ footer {
 /* SCOPE */
 
 .scope-section {
-    background: #080808;
+    background: #222225;
     padding: 85px 0;
 }
 
 .scope-section h2 {
     font-size: 34px;
     margin-bottom: 15px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .scope-intro {
-    color: #D0D0D0;
+    color: #E6A8A8;
     margin-bottom: 35px;
 }
 
@@ -365,20 +365,20 @@ footer {
 }
 
 .scope-card {
-    background: #303030;
-    border: 1px solid #454545;
+    background: #222225;
+    border: 1px solid #B62A2D;
     padding: 30px;
     border-radius: 5px;
 }
 
 .scope-card h3 {
     margin-bottom: 20px;
-    color: #FFFFFF;
+    color: #FEFEFE;
 }
 
 .scope-card ul {
     padding-left: 20px;
-    color: #D0D0D0;
+    color: #E6A8A8;
 }
 
 .scope-card li {
@@ -387,7 +387,7 @@ footer {
 
 .scope-note {
     margin-top: 25px;
-    color: #BDBDBD;
+    color: #E6A8A8;
     font-size: 14px;
 }
 
@@ -396,7 +396,7 @@ footer {
 .faq,
 .faq-section {
     padding: 85px 0;
-    background-color: #080808;
+    background-color: #222225;
 }
 
 .faq-list {
@@ -405,22 +405,22 @@ footer {
 }
 
 .faq-item {
-    background-color: #303030;
-    border: 1px solid #454545;
-    border-left: 3px solid #ED1B36;
+    background-color: #222225;
+    border: 1px solid #B62A2D;
+    border-left: 3px solid #D5575E;
     border-radius: 4px;
     padding: 28px 32px;
     margin-bottom: 18px;
 }
 
 .faq-item h3 {
-    color: #FFFFFF;
+    color: #FEFEFE;
     font-size: 19px;
     margin-bottom: 10px;
 }
 
 .faq-item p {
-    color: #D0D0D0;
+    color: #E6A8A8;
     line-height: 1.7;
 }
 
@@ -428,7 +428,7 @@ footer {
 
 .contact-section {
     padding: 90px 0;
-    background-color: #080808;
+    background-color: #222225;
 }
 
 .contact-grid {
@@ -440,12 +440,12 @@ footer {
 
 .contact-info h2 {
     font-size: 38px;
-    color: #FFFFFF;
+    color: #FEFEFE;
     margin-bottom: 20px;
 }
 
 .contact-info > p {
-    color: #D0D0D0;
+    color: #E6A8A8;
     max-width: 500px;
 }
 
@@ -458,18 +458,18 @@ footer {
 }
 
 .contact-details h3 {
-    color: #ED1B36;
+    color: #D5575E;
     font-size: 17px;
     margin-bottom: 5px;
 }
 
 .contact-details p {
-    color: #D0D0D0;
+    color: #E6A8A8;
 }
 
 .contact-form-container {
-    background-color: #303030;
-    border: 1px solid #454545;
+    background-color: #222225;
+    border: 1px solid #B62A2D;
     border-radius: 6px;
     padding: 35px;
 }
@@ -481,7 +481,7 @@ footer {
 .form-group label {
     display: block;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #FEFEFE;
     margin-bottom: 8px;
 }
 
@@ -490,17 +490,17 @@ footer {
 .form-group textarea {
     width: 100%;
     padding: 13px 14px;
-    border: 1px solid #555555;
+    border: 1px solid #B62A2D;
     border-radius: 4px;
     font-family: inherit;
     font-size: 15px;
-    color: #FFFFFF;
-    background-color: #222222;
+    color: #FEFEFE;
+    background-color: #222225;
 }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-    color: #AFAFAF;
+    color: #E6A8A8;
 }
 
 .form-group textarea {
@@ -511,7 +511,7 @@ footer {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #ED1B36;
+    border-color: #D5575E;
 }
 
 .form-button {
@@ -521,7 +521,7 @@ footer {
 
 .form-note {
     margin-top: 15px;
-    color: #BDBDBD;
+    color: #E6A8A8;
     font-size: 12px;
     text-align: center;
 }
@@ -606,4 +606,3 @@ footer {
         font-size: 26px;
     }
 }
-
