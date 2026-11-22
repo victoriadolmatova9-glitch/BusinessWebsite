@@ -9,9 +9,9 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(
         90deg,
-        #e52137 0%,
-        #ea0f21 35%,
-        #242424 100%
+        #242424 0%,
+        #ae0f21 50%,
+        #e52137 100%
     );
     background-attachment: fixed;
     color: #ffffff;
