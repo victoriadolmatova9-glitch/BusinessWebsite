@@ -61,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #e52137;
+    color: #ae0f21;
 }
 
 /* HERO */
@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 .subtitle {
-    color: #e52137;
+    color: #ae0f21;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -103,21 +103,32 @@ nav a:hover {
 .button,
 .plan-button,
 .form-button {
+    display: inline-block;
     background-color: #ae0f21;
     color: #ffffff;
+    padding: 15px 28px;
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
     transition: 0.3s;
-}
-
-.button:hover,
-.plan-button:hover,
-.form-button:hover {
-    background-color: #e52137;
+    cursor: pointer;
 }
 
 .button:hover,
 .plan-button:hover,
 .form-button:hover {
     background-color: #737373;
+}
+
+/* REQUEST A CONSULTATION BUTTON */
+
+.consultation-button {
+    background-color: #e52137;
+    color: #ffffff;
+}
+
+.consultation-button:hover {
+    background-color: #ae0f21;
 }
 
 /* SERVICES */
@@ -140,17 +151,17 @@ nav a:hover {
 }
 
 .service-card {
-    background-color: #ae0f21;
+    background-color: #242424;
     padding: 30px;
     border: 1px solid #737373;
-    border-left: 3px solid #e52137;
+    border-left: 3px solid #ae0f21;
     border-radius: 4px;
     transition: 0.3s;
 }
 
 .service-card:hover {
     transform: translateY(-5px);
-    border-color: #e52137;
+    border-color: #ae0f21;
 }
 
 .service-card h3 {
@@ -166,7 +177,7 @@ nav a:hover {
 /* CTA */
 
 .cta {
-    background-color: #ae0f21;
+    background-color: #242424;
     color: #ffffff;
     text-align: center;
     padding: 55px 20px 65px;
@@ -185,7 +196,7 @@ nav a:hover {
 }
 
 .cta .button {
-    background-color: #242424;
+    background-color: #ae0f21;
 }
 
 .cta .button:hover {
@@ -196,7 +207,7 @@ nav a:hover {
 /* FOOTER */
 
 footer {
-    background-color: #ae0f21;
+    background-color: #242424;
     color: #ffffff;
     text-align: center;
     padding: 30px;
@@ -236,7 +247,7 @@ footer {
 
 .pricing-card,
 .plan-card {
-    background-color: #ae0f21;
+    background-color: #242424;
     border: 1px solid #737373;
     border-radius: 6px;
     padding: 35px;
@@ -260,7 +271,7 @@ footer {
 .plan-price {
     font-size: 38px;
     font-weight: bold;
-    color: #ffffff;
+    color: #ae0f21;
 }
 
 .pricing-card ul,
@@ -279,7 +290,7 @@ footer {
 .pricing-card li::before,
 .plan-features li::before {
     content: "✓";
-    color: #ffffff;
+    color: #ae0f21;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -300,11 +311,11 @@ footer {
 /* OLD PRICING ELEMENTS */
 
 .plan-card.recommended {
-    border: 2px solid #e52137;
+    border: 2px solid #ae0f21;
 }
 
 .plan-label {
-    color: #ffffff;
+    color: #ae0f21;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -339,7 +350,7 @@ footer {
 }
 
 .plan-badge {
-    background: #242424;
+    background: #ae0f21;
     color: #ffffff;
     padding: 6px 10px;
     border-radius: 3px;
@@ -372,7 +383,7 @@ footer {
 }
 
 .scope-card {
-    background: #ae0f21;
+    background: #242424;
     border: 1px solid #737373;
     padding: 30px;
     border-radius: 5px;
@@ -412,9 +423,9 @@ footer {
 }
 
 .faq-item {
-    background-color: #ae0f21;
+    background-color: #242424;
     border: 1px solid #737373;
-    border-left: 3px solid #e52137;
+    border-left: 3px solid #ae0f21;
     border-radius: 4px;
     padding: 28px 32px;
     margin-bottom: 18px;
@@ -465,7 +476,7 @@ footer {
 }
 
 .contact-details h3 {
-    color: #e52137;
+    color: #ae0f21;
     font-size: 17px;
     margin-bottom: 5px;
 }
@@ -475,7 +486,7 @@ footer {
 }
 
 .contact-form-container {
-    background-color: #ae0f21;
+    background-color: #242424;
     border: 1px solid #737373;
     border-radius: 6px;
     padding: 35px;
@@ -518,7 +529,7 @@ footer {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #e52137;
+    border-color: #ae0f21;
 }
 
 .form-button {
