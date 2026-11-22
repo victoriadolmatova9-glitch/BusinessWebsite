@@ -9,10 +9,9 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(
         90deg,
-        #242424 50%,
-        #ae0f21 50%,
-        
-    
+        #242424 0%,
+        #242424 25%,
+        #ae0f21 100%
     );
     background-attachment: fixed;
     color: #ffffff;
@@ -32,7 +31,7 @@ a {
 /* HEADER */
 
 header {
-    background-color: #ae0f21;
+    background-color: #242424;
     padding: 22px 0;
     border-bottom: 1px solid #737373;
 }
@@ -104,15 +103,15 @@ nav a:hover {
 .button,
 .plan-button,
 .form-button {
-    display: inline-block;
     background-color: #ae0f21;
     color: #ffffff;
-    padding: 15px 28px;
-    border: none;
-    border-radius: 0;
-    font-weight: bold;
     transition: 0.3s;
-    cursor: pointer;
+}
+
+.button:hover,
+.plan-button:hover,
+.form-button:hover {
+    background-color: #e52137;
 }
 
 .button:hover,
