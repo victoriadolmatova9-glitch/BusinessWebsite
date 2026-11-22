@@ -11,7 +11,8 @@ body {
         90deg,
         #242424 0%,
         #ae0f21 50%,
-        #e52137 100%
+        #e52137 50%,
+        #242424 100%
     );
     background-attachment: fixed;
     color: #ffffff;
